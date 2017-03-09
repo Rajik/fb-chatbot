@@ -18,4 +18,7 @@ Bot.on :message do |message|
       text: message.text
     }
   )
+
+  # message.reply(text: 'Hello, human!')
+
 end
